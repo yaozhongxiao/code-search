@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_77" class="java.beans.XMLDecoder">
+ <object class="org.opensolaris.opengrok.configuration.Configuration" id="Configuration0">
+  <void property="dataRoot">
+   <string>/home/zhongxiao.yzx/workspace/open_source/opengrok-0.13-rc10/source/indexing/googletest</string>
+  </void>
+  <void property="projects">
+   <void method="add">
+    <object class="org.opensolaris.opengrok.configuration.Project">
+     <void property="description">
+      <string>benchmark</string>
+     </void>
+     <void property="path">
+      <string>/benchmark</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="org.opensolaris.opengrok.configuration.Project">
+     <void property="description">
+      <string>googletest</string>
+     </void>
+     <void property="path">
+      <string>/googletest</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="sourceRoot">
+   <string>/home/zhongxiao.yzx/workspace/open_source/opengrok-0.13-rc10/source/googletest</string>
+  </void>
+  <void property="urlPrefix">
+   <string>/googletest/s?</string>
+  </void>
+  <void property="verbose">
+   <boolean>true</boolean>
+  </void>
+ </object>
+</java>
